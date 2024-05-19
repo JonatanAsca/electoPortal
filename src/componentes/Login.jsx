@@ -1,7 +1,7 @@
 import "./Login.css"
 import { useState } from "react"
 
-export function Login(){
+export function Login({setUser}){
     const [usuario, setUsuario] = useState(null)
     const [clave, setClave] = useState(null)
     const [error, setError] = useState(false)
@@ -13,6 +13,9 @@ export function Login(){
             setError(true)
             return
         }
+
+
+        setUser([usuario])
     }
 
     return(

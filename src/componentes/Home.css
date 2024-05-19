@@ -1,0 +1,31 @@
+.navigation {
+    background-color: khaki;
+    padding: 10px;
+    text-align: center;
+}
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+.navigation a:hover {
+    background-color: khaki;
+}
+
+.footer {
+    
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    text-align: right;
+    align-items: right;
+    
+    
+    padding-right: 1px;
+}
